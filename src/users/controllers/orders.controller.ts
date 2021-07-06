@@ -16,7 +16,7 @@ import {
   AddProductsToOrderDto,
 } from '../dtos/order.dto';
 
-@ApiTags('orders')
+@ApiTags('Orders')
 @Controller('orders')
 export class OrdersController {
   constructor(private ordersService: OrdersService) {}

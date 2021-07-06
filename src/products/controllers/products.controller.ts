@@ -20,7 +20,7 @@ import {
 } from '../dtos/products.dto';
 import { ProductsService } from './../services/products.service';
 
-@ApiTags('products')
+@ApiTags('Products')
 @Controller('products')
 export class ProductsController {
   constructor(private productsService: ProductsService) {}
